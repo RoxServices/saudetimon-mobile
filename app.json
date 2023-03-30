@@ -1,0 +1,35 @@
+{
+  "expo": {
+    "name": "Saúde Timon 24h",
+    "slug": "saude-timon-24h",
+    "version": "1.4.5",
+    "orientation": "portrait",
+    "icon": "./src/images/logoSquared.png",
+    "splash": {
+      "image": "./src/images/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#093d74"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 1
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "usesIcloudStorage": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./src/images/logoSquaredAdaptive.png",
+        "backgroundColor": "#093d74"
+      },
+      "package": "com.accesssollutions.saudetimon24h",
+      "versionCode": 8
+    },
+    "web": {
+      "favicon": "./src/images/favicon.png"
+    }
+  }
+}
